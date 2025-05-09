@@ -1,5 +1,5 @@
 import React from 'react'
-import Page from '@/app/procedures-details/page';
+import Page from '@/app/procedures/[details]/page';
 
 const page = () => {
   return (
@@ -7,4 +7,4 @@ const page = () => {
   )
 }
 
-export default page
+export default page;

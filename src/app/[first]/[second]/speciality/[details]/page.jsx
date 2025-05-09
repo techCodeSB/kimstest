@@ -1,5 +1,5 @@
 import React from 'react';
-import Page from "@/app/speciality-details/page";
+import Page from "@/app/speciality/[details]/page";
 
 
 const page = () => {
