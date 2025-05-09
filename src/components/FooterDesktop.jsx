@@ -7,7 +7,7 @@ const FooterDesktop = () => {
         <div className="row justify-content-between">
           <div className="col-md-3">
             <div className="footer-logo">
-              <img src="img/logo.png" className="img-fluid" alt="" />
+              <img src="/img/logo.png" className="img-fluid" alt="" />
             </div>
 
             <div className="location mt-lg-4">
@@ -39,15 +39,14 @@ const FooterDesktop = () => {
                     </div>
                   </div>
                 </a>
-
               </div>
             </div>
 
             <div className="social-media-icon mt-4">
-              <img src="img/facebook.png" className="img-fluid" alt="" />
-              <img src="img/instagram.png" className="img-fluid" alt="" />
-              <img src="img/linkedin.png" className="img-fluid" alt="" />
-              <img src="img/youtube.png" className="img-fluid" alt="" />
+              <img src="/img/facebook.png" className="img-fluid" alt="" />
+              <img src="/img/instagram.png" className="img-fluid" alt="" />
+              <img src="/img/linkedin.png" className="img-fluid" alt="" />
+              <img src="/img/youtube.png" className="img-fluid" alt="" />
             </div>
 
             <div className="newsletter mt-5">
@@ -93,7 +92,7 @@ const FooterDesktop = () => {
                 <li><a href="#">Corporate</a></li>
                 <li><a href="#">CSR</a></li>
                 <li><a href="#">News and Media</a></li>
-                <li><a href="#">Rights and Responsibilities</a></li>
+                <li><a href="#">{"Rights & Responsibilities"}</a></li>
                 <li><a href="#">Health Tips</a></li>
                 <li><a href="#">Career</a></li>
                 <li><a href="#">Sitemap</a></li>
@@ -117,7 +116,7 @@ const FooterDesktop = () => {
                 <li><a href="#">BMT, Cancer Immunotherapy</a></li>
                 <li><a href="#">Obstetrics and Gynaecology</a></li>
                 <li><a href="#">Liver Transplant</a></li>
-                <li><a href="#">Heart and Lung Transplant</a></li>
+                <li><a href="#">{"Heart & Lung Transplant"}</a></li>
               </ul>
             </div>
 

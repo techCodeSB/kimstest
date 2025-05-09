@@ -29,19 +29,19 @@ const Footer = () => {
         <div className="container">
           <div className="row justify-content-center align-items-center">
             <div className="col-md-1 col-2">
-              <img src="img/achs-logo.png" className="img-fluid w-100" alt="" />
+              <img src="/img/achs-logo.png" className="img-fluid w-100" alt="" />
             </div>
             <div className="col-md-1 col-2">
-              <img src="img/nabh-logo.png" className="img-fluid" alt="" style={{ "width": "55px" }} />
+              <img src="/img/nabh-logo.png" className="img-fluid" alt="" style={{ "width": "55px" }} />
             </div>
             <div className="col-md-1 col-2">
-              <img src="img/unknown-logo.png" className="img-fluid" alt="" style={{ "width": "55px" }} />
+              <img src="/img/unknown-logo.png" className="img-fluid" alt="" style={{ "width": "55px" }} />
             </div>
             <div className="col-md-1 col-2">
-              <img src="img/epihc.png" className="img-fluid w-100" alt="" />
+              <img src="/img/epihc.png" className="img-fluid w-100" alt="" />
             </div>
             <div className="col-md-1 col-2">
-              <img src="img/unknown-logo2.png" className="img-fluid" alt="" style={{ "width": "55px" }} />
+              <img src="/img/unknown-logo2.png" className="img-fluid" alt="" style={{ "width": "55px" }} />
             </div>
           </div>
         </div>
@@ -65,21 +65,21 @@ const Footer = () => {
       <div className="fixed-footer d-block d-lg-none">
         <div className="row">
           <div className="col-3 fixed-footer-img">
-            <a href="#"><img src="img/calendar.png" className="img-fluid" alt="" />
+            <a href="#"><img src="/img/calendar.png" className="img-fluid" alt="" />
               <p>Appointment</p></a>
 
           </div>
           <div className="col-3 fixed-footer-img">
-            <a href="#"><img src="img/doctors.png" className="img-fluid" alt="" />
+            <a href="#"><img src="/img/doctors.png" className="img-fluid" alt="" />
               <p>Doctors</p></a>
           </div>
           <div className="col-3 fixed-footer-img">
-            <a href="#"><img src="img/ambulance.png" className="img-fluid" alt="" />
+            <a href="#"><img src="/img/ambulance.png" className="img-fluid" alt="" />
               <p>Ambulance</p></a>
           </div>
 
           <div className="col-3 fixed-footer-img">
-            <a href="#"><img src="img/telephone.png" className="img-fluid" alt="" />
+            <a href="#"><img src="/img/telephone.png" className="img-fluid" alt="" />
               <p>Call Us</p></a>
           </div>
 
@@ -93,7 +93,7 @@ const Footer = () => {
       <Script async src="https://unpkg.com/aos@next/dist/aos.js"></Script>
       <Script async src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></Script>
       {/* <!-- custom js --> */}
-      <Script async src="js/custom.js"></Script>
+      <Script async src="/js/custom.js"></Script>
     </>
   );
 }

@@ -5,7 +5,7 @@
     .container-md,
     .container-sm,
     .container-xl {
-        max-width: 1280px;
+        max-width: 1250px;
     }
 }
 
@@ -1025,6 +1025,85 @@
     }
     #scrolltoButton{
         bottom: 65px;
+    }
+
+    .details-page-header {
+        background-image: none;
+    }
+
+    .details-banner {
+        padding: 10px 0px 40px;
+    }
+
+    .details-card-wrapper::before {
+        top: -30px;
+        height: 15%;
+    }
+
+    .details-card-wrapper {
+        position: relative;
+        padding: 0px 25px;
+    }
+
+    .details-key-left-col h5 {
+        font-size: 14px;
+    }
+    .details-key-row .select2-container .select2-selection--single {
+        padding: 7px 12px;
+    }
+    .details-key-row .search-btn-page {
+        padding: 9px 25px !important;
+    }
+    .key-master-call-btn {
+        padding: 30px 20px;
+    }
+    .key-master-help-btn {
+        padding: 20px 20px;
+    }
+    .key-master-book-appointment-btn {
+        padding: 20px 20px;
+    }
+    .procedures-details-page-header::before{
+        display: none;
+    }
+    .procedures-details-page-header {
+        background: #fef4f4;
+    }
+    .procedure-btn-right {
+        margin-left: 10px;
+    }
+    .sub-heading p {
+        font-size: 14px;
+    }
+
+    .details-right-col p {
+        font-size: 15px;
+    }
+    .details-card .card-content p {
+        min-height: auto;
+        font-size: 14px;
+        margin-top: 10px;
+    }
+
+    .details-card .card-content {
+        padding: 25px;
+    }
+    .details-key-box {
+        padding: 7px;
+    }
+    .breadcrumb>li {
+        font-size: 14px;
+    }
+    .speciality-masterpage-card-content a {
+        font-size: 15px;
+        padding: 7px 0px;
+    }
+    .key-procedures-master-page.speciality-masterpage-card a .key-master-row h5 {
+        font-size: 15px;
+    }
+    .procedure-acc-card .accordion-body p {
+        font-size: 14px;
+        min-height: auto;
     }
 
 }

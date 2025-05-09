@@ -1,13 +1,41 @@
+"use client"
 import Link from "next/link";
+import { useEffect } from "react";
+
 
 const Header = () => {
+
+  useEffect(() => {
+    const CarouselRunner = () => {
+      setTimeout(() => {
+        if (
+          typeof window !== "undefined" && window.initExellenceCarousel
+          && window.initExpertCarousel &&
+          window.initTestimonialCarousel && window.initWallFrameCarousel &&
+          window.initBlogCarousel && window.initHomeBannerCarousel
+        ) {
+          window.initHomeBannerCarousel();
+          window.initExellenceCarousel();
+          window.initExpertCarousel();
+          window.initTestimonialCarousel();
+          window.initWallFrameCarousel();
+          window.initBlogCarousel();
+        }
+      }, 100);
+    };
+
+    CarouselRunner();
+
+  }, []);
+
+
   return <>
     <header id="header-sticky" className="header">
       <section id="topheader" className="d-lg-block d-none">
         <div className="container d-flex align-items-center justify-content-between">
           <div className="navbar-logo py-2 ">
             <Link href="/">
-              <img src="img/logo.png" alt="" className="img-fluid" />
+              <img src="/img/logo.png" alt="" className="img-fluid" />
             </Link>
           </div>
           <div className="header-contact d-flex align-items-center justify-content-center">
@@ -23,7 +51,7 @@ const Header = () => {
 
             <div className="top-bar-icon d-flex align-items-center">
               <div className="whatapp-icon">
-                <a href="#"> <img src="img/whatsapp.svg" className="img-fluid" alt="" /></a>
+                <a href="#"> <img src="/img/whatsapp.svg" className="img-fluid" alt="" /></a>
               </div>
               <div className="search-icon ms-3 me-2">
                 <i className="fa-solid fa-magnifying-glass"></i>
@@ -45,17 +73,17 @@ const Header = () => {
           <nav className="header-menu-container justify-content-lg-end">
             <div className="navbar-brand">
               <a href="#" className="text-decoration-none">
-                <img src="img/logo.png" height="55" className="img-fluid" />
+                <img src="/img/logo.png" height="55" className="img-fluid" />
               </a>
             </div>
             <div className="mobile_primary" id="primary-nav">
               {/* <!-- <div className="navbar-brand navbar-logo d-none d-lg-block">
                   <a href="#">
-                    <img src="img/imi-logo.png" alt="" className="img-fluid">
+                    <img src="/img/imi-logo.png" alt="" className="img-fluid">
                   </a>
                 </div> --> */}
               <ul className="menu-navigation" id="menu-main-navigation-1">
-                <li><Link href={"/speciality-master"} className="anchor-menu">Specialities and Treatments</Link></li>
+                <li><Link href={"/speciality"} className="anchor-menu">Specialities & Treatments</Link></li>
                 <li><a href="" className="anchor-menu">Find a Doctor</a></li>
                 <li><a href="" className="anchor-menu">Health Checkup</a></li>
                 <li><a href="" className="anchor-menu">Visa Medical</a></li>

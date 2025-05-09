@@ -11,13 +11,16 @@
 
 let headerSticky = document.getElementById('header-sticky');
 
-window.addEventListener('scroll', function () {
-    if (window.scrollY > 50) { // Fixed threshold for stickiness
-        headerSticky.classList.add('sticky-nav', 'animated', 'fadeInDown');
-    } else {
-        headerSticky.classList.remove('sticky-nav', 'animated', 'fadeInDown');
-    }
-});
+if (window) {
+    window.addEventListener('scroll', function () {
+        if (window.scrollY > 50) { // Fixed threshold for stickiness
+            headerSticky?.classList.add('sticky-nav', 'animated', 'fadeInDown');
+        } else {
+            headerSticky?.classList.remove('sticky-nav', 'animated', 'fadeInDown');
+        }
+    });
+}
+
 
 
 /* ==== Nav Toggle ==== */
@@ -62,35 +65,38 @@ $('.menuClose').click(function () {
 
 let btn = $('#scrolltoButton');
 $(window).scroll(function () {
-        if ($(window).scrollTop() > 300) {
-                btn.addClass('active');
-        } else {
-                btn.removeClass('active');
-        }
+    if ($(window).scrollTop() > 300) {
+        btn.addClass('active');
+    } else {
+        btn.removeClass('active');
+    }
 });
 
 btn.on('click', function (e) {
-        e.preventDefault();
-        $('html, body').animate({ scrollTop: 0 }, '300');
+    e.preventDefault();
+    $('html, body').animate({ scrollTop: 0 }, '300');
 });
 
 // home-banner-slider
-$('.homepage-slider').owlCarousel({
-    loop: true,
-    margin: 10,
-    nav: true,
-    responsive: {
-        0: {
-            items: 1
-        },
-        600: {
-            items: 1
-        },
-        1000: {
-            items: 1
+window.initHomeBannerCarousel = function () {
+    $('.homepage-slider').owlCarousel({
+        loop: true,
+        margin: 10,
+        nav: true,
+        responsive: {
+            0: {
+                items: 1
+            },
+            600: {
+                items: 1
+            },
+            1000: {
+                items: 1
+            }
         }
-    }
-})
+    })
+
+}
 
 
 
@@ -118,126 +124,139 @@ $('.homepage-slider').owlCarousel({
 //     }
 // })
 
-$('.exellence').owlCarousel({
-    loop: false,
-    margin: 10,
-    autoplay: false,
-    nav: true,
-    items: 4,
-    dots: false,
-    slideTransition: 'linear',
-    autoplaySpeed: 10000,
-    navText: ["<img src='img/left-arrow.svg'>", "<img src='img/slider-right-arrow.svg'>"],
-    responsive: {
-        0: {
-            items: 1.2,
-            margin: 15,
-            nav: false
+window.initExellenceCarousel = function () {
+    $('.exellence').owlCarousel({
+        loop: false,
+        margin: 10,
+        autoplay: false,
+        nav: true,
+        items: 4,
+        dots: false,
+        slideTransition: 'linear',
+        autoplaySpeed: 10000,
+        navText: ["<img src='img/left-arrow.svg'>", "<img src='img/slider-right-arrow.svg'>"],
+        responsive: {
+            0: {
+                items: 1.2,
+                margin: 15,
+                nav: false,
+            },
+            480: {
+                items: 1.5,
+                margin: 15,
+                nav: false,
+            },
+            768: {
+                items: 1.5,
+                margin: 15,
+                nav: false,
+            },
+            992: {
+                items: 4,
+                margin: 15,
+            },
         },
-        480: {
-            items: 1.5,
-            margin: 15,
-            nav: false
-        },
-        768: {
-            items: 1.5,
-            margin: 15,
-            nav: false
-        },
-        992: {
-            items: 4,
-            margin: 15
-        }
-    }
-});
+    });
+};
 
 // expert slider
-
-$('.expert').owlCarousel({
-    loop: true,
-    margin: 15,
-    nav: true,
-    navText: ["<img src='img/left-arrow.svg'>", "<img src='img/slider-right-arrow.svg'>"],
-    dots: false,
-    responsive: {
-        0: {
-            items: 2,
-            nav: false
-        },
-        600: {
-            items: 2,
-            nav: false
-        },
-        1000: {
-            items: 4
+window.initExpertCarousel = function () {
+    $('.expert').owlCarousel({
+        loop: true,
+        margin: 15,
+        nav: true,
+        navText: ["<img src='img/left-arrow.svg'>", "<img src='img/slider-right-arrow.svg'>"],
+        dots: false,
+        responsive: {
+            0: {
+                items: 2,
+                nav: false
+            },
+            600: {
+                items: 2,
+                nav: false
+            },
+            1000: {
+                items: 4
+            }
         }
-    }
-})
+    })
+}
+
 
 // wall frame
-$('.wall-frame').owlCarousel({
-    loop: true,
-    margin: 15,
-    nav: true,
-    navText: ["<img src='img/left-arrow.svg'>", "<img src='img/slider-right-arrow.svg'>"],
-    dots: false,
-    responsive: {
-        0: {
-            items: 1
-        },
-        600: {
-            items: 1
-        },
-        1000: {
-            items: 1
+window.initWallFrameCarousel = function () {
+    $('.wall-frame').owlCarousel({
+        loop: true,
+        margin: 15,
+        nav: true,
+        navText: ["<img src='img/left-arrow.svg'>", "<img src='img/slider-right-arrow.svg'>"],
+        dots: false,
+        responsive: {
+            0: {
+                items: 1
+            },
+            600: {
+                items: 1
+            },
+            1000: {
+                items: 1
+            }
         }
-    }
-})
+    })
+}
+
 
 // testimonial
-$('.testimonial').owlCarousel({
-    loop: true,
-    center: true,
-    margin: 15,
-    nav: false,
-    dots: false,
-    responsive: {
-        0: {
-            items: 1.3,
-            center: true,
-            margin: 10
-        },
-        600: {
-            items: 1.3,
-            nav: false,
-            margin: 10
-        },
-        1000: {
-            items: 1.3,
-            nav: false
+window.initTestimonialCarousel = function () {
+    $('.testimonial').owlCarousel({
+        loop: true,
+        center: true,
+        margin: 15,
+        nav: false,
+        dots: false,
+        responsive: {
+            0: {
+                items: 1.3,
+                center: true,
+                margin: 10
+            },
+            600: {
+                items: 1.3,
+                nav: false,
+                margin: 10
+            },
+            1000: {
+                items: 1.3,
+                nav: false
+            }
         }
-    }
-})
+    })
+}
+
 
 // blog
-$('.blog').owlCarousel({
-    loop: true,
-    margin: 15,
-    nav: false,
-    navText: ["<img src='img/left-arrow.svg'>", "<img src='img/slider-right-arrow.svg'>"],
-    dots: false,
-    responsive: {
-        0: {
-            items: 1
-        },
-        600: {
-            items: 2
-        },
-        1000: {
-            items: 4
+window.initBlogCarousel = function () {
+    $('.blog').owlCarousel({
+        loop: true,
+        margin: 15,
+        nav: false,
+        navText: ["<img src='img/left-arrow.svg'>", "<img src='img/slider-right-arrow.svg'>"],
+        dots: false,
+        responsive: {
+            0: {
+                items: 1
+            },
+            600: {
+                items: 2
+            },
+            1000: {
+                items: 4
+            }
         }
-    }
-})
+    })
+}
+
 
 $(document).ready(function () {
     // Open the first accordion item by default
@@ -255,7 +274,7 @@ $(document).ready(function () {
 });
 
 
-$(document).ready(function() {
+$(document).ready(function () {
     $('.speciality-page-search').select2();
 });
 

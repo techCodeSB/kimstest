@@ -8,7 +8,7 @@ const FooterMobile = () => {
           <div className="row">
             <div className="col-md-3 col-6 mb-4">
               <div className="footer-logo">
-                <img src="img/logo.png" className="img-fluid" alt="" />
+                <img src="/img/logo.png" className="img-fluid" alt="" />
               </div>
             </div>
 
@@ -53,13 +53,10 @@ const FooterMobile = () => {
                   <li><a href="#">BMT, Cancer Immunotherapy</a></li>
                   <li><a href="#">Obstetrics and Gynaecology</a></li>
                   <li><a href="#">Liver Transplant</a></li>
-                  <li><a href="#">Heart and Lung Transplant</a></li>
+                  <li><a href="#">{"Heart & Lung Transplant"}</a></li>
                 </ul>
               </div>
             </div>
-
-
-
 
             <div className="colum-link col-12 mb-4">
               <div className="footer-menu expanded link-part">
@@ -78,7 +75,7 @@ const FooterMobile = () => {
                   <li><a href="#">Corporate</a></li>
                   <li><a href="#">CSR</a></li>
                   <li><a href="#">News and Media</a></li>
-                  <li><a href="#">Rights and Responsibilities</a></li>
+                  <li><a href="#">{"Rights & Responsibilities"}</a></li>
                   <li><a href="#">Health Tips</a></li>
                   <li><a href="#">Career</a></li>
                   <li><a href="#">Sitemap</a></li>
@@ -122,10 +119,10 @@ const FooterMobile = () => {
               </div>
 
               <div className="social-media-icon mt-4">
-                <img src="img/facebook.png" className="img-fluid" alt="" />
-                <img src="img/instagram.png" className="img-fluid" alt="" />
-                <img src="img/linkedin.png" className="img-fluid" alt="" />
-                <img src="img/youtube.png" className="img-fluid" alt="" />
+                <img src="/img/facebook.png" className="img-fluid" alt="" />
+                <img src="/img/instagram.png" className="img-fluid" alt="" />
+                <img src="/img/linkedin.png" className="img-fluid" alt="" />
+                <img src="/img/youtube.png" className="img-fluid" alt="" />
               </div>
 
               <div className="newsletter mt-4">

@@ -166,3 +166,7 @@ a.secondary {
     filter: invert();
   }
 }
+
+.details__section__extra{
+  background: linear-gradient(180deg,rgba(255, 255, 255, 1) 45%, rgba(248, 248, 248, 1) 74%);
+}

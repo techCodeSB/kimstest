@@ -198,6 +198,7 @@ a:hover {
 .sub-heading p {
     font-size: 16px;
     font-weight: 400;
+    margin-bottom: 10px;
     /* text-transform: capitalize; */
 }
 
@@ -722,7 +723,7 @@ header {
 }
 
 .over-all-btn a span img {
-    width: 30px;
+    width: 24px;
 }
 
 .over-all-btn a span {
@@ -731,8 +732,8 @@ header {
     display: inline-block;
     background: #f7f7f7;
     margin-left: 5px;
-    height: 30px;
-    width: 31px;
+    height: 27px;
+    width: 27px;
 }
 
 /* ===== Exellence Section ====== */
@@ -798,7 +799,7 @@ header {
 .owl-carousel.exellence .owl-nav button.owl-prev {
     position: absolute;
     top: 45%;
-    left: -45px;
+    left: -55px;
     display: block;
     background: #f4f4f4;
     border-radius: 50%;
@@ -818,7 +819,7 @@ header {
 .owl-carousel.exellence .owl-nav button.owl-next {
     position: absolute;
     top: 45%;
-    right: -45px;
+    right: -55px;
     background: #f4f4f4;
     border-radius: 50%;
     display: block;
@@ -885,7 +886,7 @@ header {
 .owl-carousel.expert .owl-nav button.owl-prev {
     position: absolute;
     top: 45%;
-    left: -45px;
+    left: -55px;
     display: block;
     background: #f4f4f4;
     border-radius: 50%;
@@ -905,7 +906,7 @@ header {
 .owl-carousel.expert .owl-nav button.owl-next {
     position: absolute;
     top: 45%;
-    right: -45px;
+    right: -55px;
     background: #f4f4f4;
     border-radius: 50%;
     display: block;
@@ -985,11 +986,11 @@ header {
 }
 
 .owl-carousel.wall-frame .owl-nav button.owl-prev img {
-    width: 40px;
+    width: 25px;
 }
 
 .owl-carousel.wall-frame .owl-nav button.owl-next img {
-    width: 40px;
+    width: 25px;
 }
 
 .owl-theme.wall-frame .owl-nav {
@@ -1002,25 +1003,25 @@ header {
 
 .owl-carousel.wall-frame .owl-nav button.owl-prev {
     position: absolute;
-    top: 80%;
+    top: 76%;
     left: 43%;
     display: block;
     background: #ffffff;
     border-radius: 50%;
     transition: .3s ease;
-    height: 50px;
-    width: 50px;
+    height: 40px;
+    width: 40px;
 }
 
 .owl-carousel.wall-frame .owl-nav button.owl-next {
     position: absolute;
-    top: 80%;
-    left: 49%;
+    top: 76%;
+    left: 48%;
     background: #ffffff;
     border-radius: 50%;
     display: block;
-    height: 50px;
-    width: 50px;
+    height: 40px;
+    width: 40px;
     transition: .3s ease;
 }
 
@@ -1495,7 +1496,7 @@ footer.footer {
 }
 
 .speciality-masterpage-card-content a {
-    font-size: 15px;
+    font-size: 16px;
     color: #000;
     font-weight: 500;
     display: -webkit-box;
@@ -1567,4 +1568,524 @@ footer.footer {
 .speciality-page-search-section {
     background: #f7f7f7;
     padding: 20px 40px;
+}
+
+
+/* ============== Speciality Details Page ================ */
+
+.details-page-header {
+    background-image: url(../img/details-banner.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    /* padding: 100px 0px !important; */
+    z-index: 999;
+}
+
+.details-banner {
+    padding: 40px 0px 100px;
+}
+
+.details-page-before {
+    position: relative;
+}
+
+.details-page-before::after {
+    position: absolute;
+    background: #fef4f4;
+    height: 100%;
+    width: 100%;
+    content: '';
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.details-heading h3 {
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #b71c2b;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.details-banner input::placeholder {
+    color: #a8a9a9;
+    font-size: 13px;
+}
+
+.details-page-header .from-btn button {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.details-right-col img {
+    border-radius: 10px;
+}
+
+.details-right-col h5 {
+    font-size: 18px;
+    font-weight: 600;
+    margin: 15px 0px 2px;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.details-right-col p {
+    font-size: 16px;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    margin-bottom: 5px;
+}
+
+.details-card {
+    background: #fff;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.details-card .card-content {
+    padding: 35px;
+}
+
+.details-card .card-content p {
+    font-size: 16px;
+    color: #252528;
+    display: block;
+    -webkit-line-clamp: 2;
+    line-clamp: all;
+    -webkit-box-orient: vertical;
+    overflow: visible;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 10px;
+    margin-top: 15px;
+    min-height: 125px;
+}
+
+.details-card .card-content h4 {
+    color: #c71d22;
+    font-size: 18px;
+    text-transform: uppercase;
+    position: relative;
+    display: inline;
+}
+
+.details-card .card-content h4::before {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    content: '';
+    display: block;
+    width: 100%;
+    height: 1px;
+    background: #c71d22;
+}
+
+.details-card-wrapper {
+    position: relative;
+    padding: 0px 65px;
+}
+
+.details-card-wrapper::before {
+    position: absolute;
+    content: '';
+    display: block;
+    width: 100%;
+    height: 55%;
+    background: #f5f5f5;
+    top: -50px;
+    left: 0;
+    z-index: 1;
+}
+
+.detsils-key-procedures .main-heading h2 {
+    position: relative;
+    display: inline;
+}
+
+.detsils-key-procedures .main-heading h2::before {
+    position: absolute;
+    content: '';
+    display: block;
+    width: 100%;
+    height: 1px;
+    background: linear-gradient(90deg, rgba(230, 189, 193, 1) 50%, rgba(246, 246, 246, 1) 50%);
+    top: 100%;
+    left: 0;
+}
+
+.details-key-row .select2-container--default .select2-selection--single .select2-selection__rendered {
+    line-height: normal;
+    font-size: 15px;
+    text-align: left;
+    padding-left: 70px;
+}
+
+.details-key-row .select2-container .select2-selection--single {
+    box-sizing: border-box;
+    cursor: pointer;
+    display: block;
+    height: auto;
+    padding: 10px 12px;
+    border-radius: 30px !important;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+.details-key-row .select2-container {
+    width: 100% !important;
+}
+
+.details-key-row .select2-container--default .select2-selection--single {
+    background-color: #f0f2f1;
+    border: none;
+}
+
+.details-key-row .search-btn-page {
+    right: inherit;
+    left: 0;
+    padding: 12px 25px !important;
+}
+
+.details-key-row .select2-selection__arrow {
+    display: none;
+}
+
+.details-key-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #fff;
+}
+
+.details-key-left-col h5 {
+    font-size: 16px;
+    font-weight: 500;
+    color: #000;
+}
+
+.details-key-right-col span {
+    font-size: 12px;
+    font-weight: 600;
+    background: #ffffff;
+    border-radius: 100%;
+    display: block;
+    text-align: center;
+    height: 20px;
+    width: 20px;
+    color: #b71c2b;
+    padding: 1px;
+}
+
+.details-key-row .over-all-btn a span {
+    background: #fff;
+    padding: 0px 3px;
+}
+
+.details-key-row .over-all-btn a {
+    font-weight: 500;
+}
+
+
+
+/* ============================= Key Procedures ======================== */
+.key-procedures-master-page.speciality-masterpage-card .details-key-row .select2-container--default .select2-selection--single {
+    background: #fff;
+}
+
+.key-procedures-master-page.speciality-masterpage-card .key-master-row {
+    display: flex;
+    align-items: center;
+}
+
+.key-procedures-master-page.speciality-masterpage-card a .key-master-row h5 {
+    font-size: 16px;
+    color: #000;
+    font-weight: 500;
+    position: relative;
+    transition: .3s ease;
+}
+
+.key-procedures-master-page.speciality-masterpage-card a .key-master-row .key-master-image {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #fff;
+    margin-right: 10px;
+}
+
+.key-procedures-master-page.speciality-masterpage-card a .key-master-row .key-master-image img {
+    display: flex;
+    margin: auto;
+    padding: 10px 0;
+}
+
+.key-procedures-master-page.speciality-masterpage-card .speciality-masterpage-card-content a::before {
+    opacity: 1;
+    font-family: 'FontAwesome';
+    position: absolute;
+    right: 0;
+    top: 35%;
+    font-weight: 600;
+    content: "\f054";
+    font-size: 10px;
+    margin: 0px 0px 0 0px;
+    color: #c13434;
+    background: #fff;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.key-master-book-appointment-btn {
+    position: relative;
+    background: #636466;
+    padding: 30px 20px;
+}
+
+.key-master-book-appointment-btn::before {
+    opacity: 1;
+    font-family: 'FontAwesome';
+    position: absolute;
+    right: 25px;
+    top: 35%;
+    font-weight: 600;
+    content: "\f054";
+    font-size: 17px;
+    margin: 0px 0px 0 0px;
+    color: #c13434;
+    background: #fff;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.key-master-book-appointment-btn .key-master-book-appointment-content {
+    display: flex;
+    align-items: center;
+}
+
+.key-master-book-appointment-btn .key-master-book-appointment-content img {
+    width: 35px;
+    margin-right: 10px;
+}
+
+.key-master-book-appointment-btn .key-master-book-appointment-content h5 {
+    font-size: 15px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.key-master-help-btn {
+    background: #b71c2b;
+    padding: 30px 20px;
+
+}
+
+.key-master-help-btn h5 {
+    color: #fff;
+    font-size: 17px;
+    text-align: center;
+    line-height: 22px;
+}
+
+.key-master-call-btn {
+    background: #fef4f4;
+    padding: 50px 20px;
+}
+
+.key-master-call-btn h5 {
+    color: #000000;
+    font-size: 17px;
+    text-align: center;
+    line-height: 22px;
+}
+
+.key-master-call-btn h4 {
+    color: #000000;
+    font-size: 17px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.key-master-call-btn h4 i {
+    background: #b71c2b;
+    border-radius: 100%;
+    height: 40px;
+    width: 40px;
+    color: #fff;
+    padding: 12px;
+    margin-right: 10px;
+}
+
+.procedures-details-page-header {
+    background: linear-gradient(90deg, rgba(254, 244, 244, 1) 25%, rgb(255, 255, 255) 25%);
+    position: relative;
+    overflow: hidden;
+}
+
+.procedures-details-page-header::before {
+    position: absolute;
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: url(../img/pro-banner-bef.png);
+    top: 0;
+    left: 50%;
+    background-repeat: no-repeat;
+}
+
+.details-proceduce-banner-left-col {
+    background: #fef4f4;
+}
+
+.details-proceduce-banner-right-col {
+    /* display: block; */
+    position: relative;
+    z-index: 99;
+}
+
+.procedures-details-page-header .details-proceduce-banner-right-col img {
+    width: 65px;
+    margin-right: 10px;
+}
+
+.procedures-details-page-header .details-proceduce-banner-right-col h4 {
+    font-size: 22px;
+    font-weight: 700;
+    color: #000000;
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
+
+.procedure-btn-left {
+    font-size: 15px;
+    padding: 7px 20px;
+    background: #fff;
+    border-radius: 30px;
+    border: 1px solid #b71c2b;
+    color: #767676;
+}
+
+.procedure-btn-right {
+    font-size: 15px;
+    padding: 7px 20px;
+    background: #b71c2b;
+    border-radius: 30px;
+    border: 1px solid #b71c2b;
+    color: #fff;
+    margin-left: 30px;
+}
+
+.procedure-acc-card {
+    padding: 15px 20px;
+    background: #fff;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.procedure-acc-card .faq-section .accordion-header span {
+    font-size: 18px;
+    font-weight: 600;
+    color: #c71d22;
+    margin-bottom: 8px;
+    line-height: normal;
+}
+
+.procedure-acc-card .faq-section .accordion-body p {
+    color: #000;
+    font-size: 17px;
+    line-height: 25px;
+    margin-bottom: 6px;
+}
+
+.procedure-acc-card .accordion-item {
+    border: none;
+    background: none;
+}
+
+.procedure-acc-card .accordion-header .accordion-button {
+    background: none;
+    box-shadow: none;
+    padding: 0px;
+}
+
+.procedure-acc-card .accordion-header {
+    background: none;
+    border: none;
+    border-bottom: 1px solid #f1f0f0;
+    margin-bottom: 10px;
+}
+
+.procedure-acc-card .accordion-button:not(.collapsed) {
+    background: none;
+}
+
+.procedure-acc-card .accordion-button:focus {
+    box-shadow: none;
+}
+
+.procedure-acc-card .accordion-button::after {
+    position: absolute;
+    right: -35px;
+    content: '\f078';
+    font-family: 'FontAwesome';
+    height: 25px;
+    width: 25px;
+    font-size: 11px;
+    border-radius: 50%;
+    background: none;
+    background-color: #d1d1d1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #b71c2b;
+}
+
+.procedure-acc-card .accordion-button:not(.collapsed)::after {
+    content: '\f078';
+    font-family: 'FontAwesome';
+    background: none;
+    background-color: #d1d1d1;
+    color: #b71c2b;
+}
+
+.procedure-acc-card .accordion-button:not(.collapsed),
+.procedure-acc-card .accordion-button {
+    color: #000;
+    font-weight: 600;
+    padding: 10px 0px;
+    font-size: 18px;
+    min-height: 65px;
+    width: 90%;
+    position: relative;
+
+}
+
+.procedure-acc-card .accordion-body p {
+    font-size: 15px;
+    color: #000;
+    min-height: 95px;
+}
+
+.procedure-acc-card .accordion-body p span {
+    color: #b71c2b;
 }
