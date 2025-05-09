@@ -10,9 +10,10 @@ const Header = () => {
       setTimeout(() => {
         if (
           typeof window !== "undefined" && window.initExellenceCarousel
-          && window.initExpertCarousel &&
-          window.initTestimonialCarousel && window.initWallFrameCarousel &&
-          window.initBlogCarousel && window.initHomeBannerCarousel
+          && window.initExpertCarousel && window.initTestimonialCarousel
+          && window.initWallFrameCarousel && window.initBlogCarousel
+          && window.initHomeBannerCarousel && window.hospitalCarousel
+          && window.hospitalDetails
         ) {
           window.initHomeBannerCarousel();
           window.initExellenceCarousel();
@@ -20,6 +21,8 @@ const Header = () => {
           window.initTestimonialCarousel();
           window.initWallFrameCarousel();
           window.initBlogCarousel();
+          window.hospitalDetails();
+          window.hospitalCarousel()
         }
       }, 100);
     };

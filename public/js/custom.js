@@ -134,7 +134,7 @@ window.initExellenceCarousel = function () {
         dots: false,
         slideTransition: 'linear',
         autoplaySpeed: 10000,
-        navText: ["<img src='img/left-arrow.svg'>", "<img src='img/slider-right-arrow.svg'>"],
+        navText: ["<img src='/img/left-arrow.svg'>", "<img src='/img/slider-right-arrow.svg'>"],
         responsive: {
             0: {
                 items: 1.2,
@@ -165,7 +165,7 @@ window.initExpertCarousel = function () {
         loop: true,
         margin: 15,
         nav: true,
-        navText: ["<img src='img/left-arrow.svg'>", "<img src='img/slider-right-arrow.svg'>"],
+        navText: ["<img src='/img/left-arrow.svg'>", "<img src='/img/slider-right-arrow.svg'>"],
         dots: false,
         responsive: {
             0: {
@@ -190,7 +190,7 @@ window.initWallFrameCarousel = function () {
         loop: true,
         margin: 15,
         nav: true,
-        navText: ["<img src='img/left-arrow.svg'>", "<img src='img/slider-right-arrow.svg'>"],
+        navText: ["<img src='/img/left-arrow.svg'>", "<img src='/img/slider-right-arrow.svg'>"],
         dots: false,
         responsive: {
             0: {
@@ -241,7 +241,7 @@ window.initBlogCarousel = function () {
         loop: true,
         margin: 15,
         nav: false,
-        navText: ["<img src='img/left-arrow.svg'>", "<img src='img/slider-right-arrow.svg'>"],
+        navText: ["<img src='/img/left-arrow.svg'>", "<img src='/img/slider-right-arrow.svg'>"],
         dots: false,
         responsive: {
             0: {
@@ -252,6 +252,58 @@ window.initBlogCarousel = function () {
             },
             1000: {
                 items: 4
+            }
+        }
+    })
+}
+
+
+// hospital detils
+window.hospitalDetails = function () {
+    $('.hospital-details-slider').owlCarousel({
+        loop: true,
+        margin: 10,
+        nav: true,
+        dots: false,
+        navText: ["<img src='/img/left-arrow.svg'>", "<img src='/img/slider-right-arrow.svg'>"],
+        responsive: {
+            0: {
+                items: 1,
+                dots: true,
+                nav: false
+            },
+            600: {
+                items: 1,
+                dots: true,
+                nav: false
+            },
+            1000: {
+                items: 1
+            }
+        }
+    })
+}
+
+
+// hospital page
+window.hospitalCarousel = function () {
+    $('.hospital-slider').owlCarousel({
+        loop: true,
+        margin: 15,
+        nav: true,
+        navText: ["<img src='/img/left-arrow.svg'>", "<img src='/img/slider-right-arrow.svg'>"],
+        dots: false,
+        responsive: {
+            0: {
+                items: 1,
+                nav: false
+            },
+            600: {
+                items: 1,
+                nav: false
+            },
+            1000: {
+                items: 3
             }
         }
     })

@@ -199,6 +199,7 @@ a:hover {
     font-size: 16px;
     font-weight: 400;
     margin-bottom: 10px;
+    color: #000;
     /* text-transform: capitalize; */
 }
 
@@ -2089,3 +2090,303 @@ footer.footer {
 .procedure-acc-card .accordion-body p span {
     color: #b71c2b;
 }
+
+.hospital-mainpage-form .search-btn-page {
+    display: flex;
+    align-items: center;
+    padding: 3px 5px !important;
+    color: #000;
+    margin: 10px;
+    background: #fff;
+}
+
+.hospital-mainpage-form .select2-container--default .select2-selection--single{
+    border: 1px solid #b71c2b;
+    border-radius: 20px;
+    height: auto;
+    padding: 5px 10px;
+}
+.hospital-mainpage-form .select2-container--default .select2-selection--single .select2-selection__arrow {
+    height: 26px;
+    position: absolute;
+    top: 1px;
+    right: 13px;
+    width: 20px;
+}
+
+.hospital-mainpage-form .select2-container--default .select2-selection--single .select2-selection__rendered {
+    color: #000000;
+    line-height: 28px;
+    font-size: 16px;
+}
+
+.hospital-main-page .hospital-content{
+    padding: 20px;
+}
+
+
+.custom-hospital-top-card{
+    background: #f5f5f5;
+}
+.star-rating{
+    font-weight: 700;
+}
+.star-rating i{
+    font-size: 16px;
+}
+
+.hospital-primarybtn{
+    background: #b71c2b;
+    color: #fff;
+    border-radius: 30px;
+    padding: 8px 25px;
+    font-size: 15px;
+    font-weight: 600;
+    transition: .3s ease-in;
+}
+
+.hospital-primarybtn:hover{
+    background: #fff;
+    color: #b71c2b;
+    border: 1px solid #b71c2b;
+    
+}
+
+.hospital-secondarybtn{
+    background: transparent;
+    color: #000000;
+    border: 1px solid #b71c2b;
+    border-radius: 30px;
+    padding: 8px 25px;
+    font-size: 15px;
+    font-weight: 600;
+    transition: .4s;
+}
+
+.hospital-secondarybtn:hover{
+    background: #b71c2b;
+    color: #fff;
+    border: 1px solid #b71c2b;
+}
+
+.address-hospital{
+    min-height: 75px;
+}
+
+
+
+.col-md-6 .location-icon-custom.address-half-col{
+    min-height: 50px;
+}
+
+.location-icon-custom{
+    position: relative;
+    padding-left: 30px;
+    font-size: 16px;
+    color: #000000;
+    margin-bottom: 10px;
+}
+.location-icon-custom::before{
+    position: absolute;
+    content: '';
+    background: url(../img/location.png);
+    width: 20px;
+    height: 20px;
+    top: 4px;
+    left: 0;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.hospital-icon-custom{
+    position: relative;
+    padding-left: 30px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+.hospital-icon-custom::before{
+    position: absolute;
+    content: '';
+    background: url(../img/hospital.png);
+    width: 17px;
+    height: 20px;
+    top: 4px;
+    left: 0;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.telephone-icon-custom{
+    position: relative;
+    padding-left: 30px;
+    font-size: 16px;
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+.telephone-icon-custom::before{
+    position: absolute;
+    content: '';
+    background: url(../img/telephone-hospital.png);
+    width: 17px;
+    height: 20px;
+    top: 4px;
+    left: 0;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.send-custom-icon{
+    position: relative;
+    padding-left: 30px;
+    font-size: 16px;
+    color: #000000;
+    margin-bottom: 10px;
+}
+.send-custom-icon::before{
+    position: absolute;
+    content: '';
+    background: url(../img/send.png);
+    width: 17px;
+    height: 20px;
+    top: 4px;
+    left: 0;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.col-md-4 .custom-hospital-top-card .hospital-content .hospital-icon-custom {
+    min-height: 50px;
+}
+.col-md-4 .custom-hospital-top-card .hospital-content .location-icon-custom {
+    min-height: 80px;
+}
+
+.details-banner .details-heading .hospital-content .send-custom-icon{
+    position: relative;
+    display: inline-block;
+}
+.details-banner .details-heading .hospital-content .send-custom-icon::after{
+    position: absolute;
+    content: '';
+    background: #c71d22;
+    bottom: 0;
+    left: 30px;
+    width: 78%;
+    height: 1px;
+}
+
+.hospital-details-slider .item img{
+    width: 100%;
+    height: 340px;
+    object-fit: cover;
+}
+
+.hospital-banner-container{
+    max-width: 600px;
+    margin-left: auto;
+}
+.hospital-details-slider{
+    position: relative;
+}
+.hospital-details-slider::before{
+    position: absolute;
+    content: '';
+    display: block;
+    width: 22%;
+    height: 342px;
+    background: url(../img/pro-banner-bef.png);
+    background-repeat: no-repeat;
+    top: -1px;
+    left: 0;
+    z-index: 9999;
+}
+
+.hospital-details-slider.owl-theme .owl-nav{
+    margin-top: 0;
+}
+
+.hospital-details-slider.owl-carousel .owl-nav button.owl-prev {
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    display: block;
+    background: #ffffff;
+    border-radius: 50%;
+    transition: .3s ease;
+    height: 40px;
+    width: 40px;
+}
+.hospital-details-slider.owl-carousel .owl-nav button.owl-next {
+    position: absolute;
+    top: 75%;
+    right: 35%;
+    background: #ffffff;
+    border-radius: 50%;
+    display: block;
+    height: 40px;
+    width: 40px;
+    transition: .3s ease;
+}
+
+.procedures-details-page-header .details-proceduce-banner-right-col .hospital-details-slider img {
+    width: auto;
+    margin-right: 0px;
+}
+.owl-carousel.hospital-details-slider .owl-nav button.owl-prev img {
+    width: 30px;
+}
+.owl-carousel.hospital-details-slider .owl-nav button.owl-next img {
+    width: 30px;
+}
+
+.hospital-details-overview-section .sub-heading .main-heading h4{
+    font-size: 18px;
+    font-weight: 600;
+    color: #000000;
+    margin-bottom: 0px;
+}
+
+.details-counter-section{
+    background: #fff;
+    padding: 15px 30px;
+    margin-top: 20px;
+}
+
+.details-counter-box h2{
+    font-size: 35px;
+    line-height: normal;
+    font-weight: 700;
+    color: #b71c2b;
+    margin-bottom: 0px;
+    border-bottom: 1px solid #dadad6;
+
+}
+.details-counter-box p{
+    font-size: 16px;
+    color: #000000;
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+
+.hospital-details-overview-section{
+    background: #f5f5f5;
+}
+
+.custom-hospital-top-card{
+    background: #f5f5f5;
+}
+
+.custom-hospital-top-card .hospital-content{
+    padding: 20px;
+}
+
+.owl-carousel.hospital-slider .owl-nav button.owl-prev {
+    background: rgb(244, 244, 244);
+}
+
+.owl-carousel.hospital-slider .owl-nav button.owl-next {
+    background: rgb(244, 244, 244);
+}
+
