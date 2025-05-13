@@ -5,6 +5,7 @@ import { useEffect } from 'react';
 import Script from "next/script";
 import FooterDesktop from "./FooterDesktop";
 import FooterMobile from "./FooterMobile";
+import $ from 'jquery'
 
 
 const Footer = () => {
@@ -18,6 +19,7 @@ const Footer = () => {
       once: false,
       mirror: true,
     })
+
   }, [])
 
   return (
@@ -94,6 +96,7 @@ const Footer = () => {
       <Script async src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></Script>
       {/* <!-- custom js --> */}
       <Script async src="/js/custom.js"></Script>
+
     </>
   );
 }
