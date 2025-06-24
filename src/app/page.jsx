@@ -1,5 +1,6 @@
 import BlogCarousel from "@/components/BlogCarousel";
 import ExpertCarousel from "@/components/ExpertCarousel";
+import HomeCarousel from "@/components/carousels/HomeCarousel";
 import HearFromDoctor from "@/components/HearFromDoctor";
 import SocialMedia from "@/components/SocialMedia";
 import TestimonialSection from "@/components/TestimonialSection";
@@ -17,25 +18,7 @@ export default function Home() {
     <>
       <Header />
       <div role="main" className="main">
-        <section className="d-lg-block d-none">
-          <div className="container-wrapper">
-            <div className="owl-carousel owl-theme homepage-slider">
-              <div className="item">
-                <img src="img/banner1.jpg" className="img-fluid" alt="" />
-              </div>
-            </div>
-          </div>
-        </section>
-
-        <section className="d-lg-none d-block">
-          <div className="container-wrapper">
-            <div className="owl-carousel owl-theme homepage-slider">
-              <div className="item">
-                <img src="img/mobile-banner.jpg" className="img-fluid" alt="" />
-              </div>
-            </div>
-          </div>
-        </section>
+        <HomeCarousel />
 
         {/* <!-- ======= homepage end ========== --> */}
 
@@ -289,29 +272,29 @@ export default function Home() {
 
         <div className="line-divider"> </div>
 
-        <ExpertCarousel/>
+        <ExpertCarousel />
 
         <div className="line-divider"> </div>
 
-        <WallFame/>
+        <WallFame />
 
         <div className="line-divider"></div>
 
-        <TestimonialSection/>
+        <TestimonialSection />
 
         {/* <!-- ========== testimonial section end ============ --> */}
 
 
         <div className="line-divider"></div>
 
-        <BlogCarousel/>
+        <BlogCarousel />
         {/* <!-- ========== blog section end =========== --> */}
 
         <div className="line-divider"></div>
-        <HearFromDoctor/>
+        <HearFromDoctor />
 
         <div className="line-divider"></div>
-        <SocialMedia/>
+        <SocialMedia />
 
       </div>
     </>

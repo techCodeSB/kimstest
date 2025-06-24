@@ -133,7 +133,7 @@
         top: 0;
     }
 
-    
+
 }
 
 @media only screen and (max-width: 991px) {
@@ -162,6 +162,7 @@
     .ctn-left-col {
         background: #b71c2b !important;
     }
+
     .ctn-left-col .cta-diff h3 {
         font-weight: 400;
         font-size: 12px;
@@ -240,6 +241,7 @@
         -webkit-box-orient: vertical;
         overflow: hidden;
     }
+
     .expert-section .card .card-content {
         padding: 10px 0px 10px 0px;
         text-align: left;
@@ -248,6 +250,7 @@
     .expert-section .card .card-content h4 {
         padding-left: 5px;
     }
+
     .expert-section .card .card-content p {
         padding-left: 5px;
     }
@@ -255,23 +258,28 @@
     .expert-section .card .card-content h5 {
         padding-left: 5px;
     }
+
     .from-btn button {
         font-size: 14px;
         padding: 5px 0px;
     }
+
     .from-btn a {
         font-size: 14px;
         padding: 6px 19px;
         width: 100%;
     }
+
     .frame-right-col h5 {
         font-size: 13px;
     }
+
     .frame-right-col h2 {
         font-size: 14px;
         margin-bottom: 5px;
         margin-top: 5px;
     }
+
     .frame-right-col p {
         font-size: 14px;
         color: #636466;
@@ -281,24 +289,29 @@
         -webkit-box-orient: vertical;
         overflow: hidden;
     }
+
     .owl-carousel.wall-frame .owl-nav button.owl-next img {
         width: 30px;
     }
+
     .owl-carousel.wall-frame .owl-nav button.owl-next {
         height: 35px;
         width: 35px;
         left: 44px;
         top: 100%;
     }
+
     .owl-carousel.wall-frame .owl-nav button.owl-prev img {
         width: 30px;
     }
+
     .owl-carousel.wall-frame .owl-nav button.owl-prev {
         height: 35px;
         width: 35px;
         left: 48%;
         top: 100%;
     }
+
     .white-box {
         width: 25rem;
         height: 13rem;
@@ -307,15 +320,19 @@
         left: -20rem;
         top: -20px;
     }
+
     .owl-theme.wall-frame .owl-nav {
         padding-top: 0px;
     }
+
     .wallframe-section {
         padding-bottom: 50px !important;
     }
+
     .frame-left-col img {
         border-radius: 20px;
     }
+
     .testi-rightbox.card-content {
         padding: 15px 10px 20px;
         border-bottom-left-radius: 20px;
@@ -323,6 +340,7 @@
         background: #fafafa;
         min-height: auto;
     }
+
     .testimonial-section .testi-rightbox h3 {
         font-size: 16px;
         font-weight: 700;
@@ -331,21 +349,25 @@
         -webkit-box-orient: vertical;
         overflow: hidden;
     }
+
     .testi-rightbox p {
         font-size: 14px;
         margin: 0px 0px 0px;
         color: #000;
         line-height: 20px;
     }
+
     .testi-rightbox .doctor-name p {
         font-size: 14px;
         line-height: 17px;
     }
+
     .testi-rightbox .doctor-catagory p {
         font-size: 14px;
         line-height: 17px;
         font-weight: 400;
     }
+
     .blog-section .testi-rightbox p {
         font-size: 14px;
         margin: 5px 0px 5px;
@@ -356,31 +378,35 @@
         overflow: hidden;
     }
 
-    .blog-section .testi-rightbox .d-block strong{
+    .blog-section .testi-rightbox .d-block strong {
         font-size: 14px;
     }
+
     .blog-section {
         background: transparent;
     }
-    .blog-card{
+
+    .blog-card {
         padding: 10px;
         padding: 10px;
         background: #fafafa;
         border-radius: 10px;
         margin-top: 10px;
     }
+
     .hear-doctor-content p {
         font-size: 14px;
         font-weight: 600;
         color: #ffffff;
         line-height: 16px;
     }
+
     .blog-right-col .hear-doctor-content {
         top: 62%;
         width: 100%;
         height: auto;
     }
-    
+
     .homepageslider {
         padding: 100px 20px;
     }
@@ -388,13 +414,16 @@
     .navbar-brand {
         display: block;
     }
-    .hear-doctor-img img{
+
+    .hear-doctor-img img {
         border-radius: 10px;
     }
+
     .blog-right-col .hear-doctor-content {
         top: 64%;
         width: 100%;
     }
+
     .blog-right-col .hear-doctor-content p {
         font-size: 14px;
     }
@@ -407,36 +436,44 @@
         -webkit-box-orient: vertical;
         overflow: hidden;
     }
-    .media-name p{
+
+    .media-name p {
         font-size: 10px;
     }
+
     .media-heart p img {
         width: 14px;
     }
+
     .media-heart img {
         width: 14px;
     }
+
     .media-share p span img {
         width: 14px;
     }
 
-    .media-img img{
+    .media-img img {
         border-top-left-radius: 13px;
         border-top-right-radius: 13px;
 
     }
-    .media-content{
+
+    .media-content {
         border-bottom-left-radius: 13px;
-        border-bottom-right-radius: 13px; 
+        border-bottom-right-radius: 13px;
     }
-    .media-card{
+
+    .media-card {
         border-radius: 13px;
     }
+
     .footer .link-part h3 {
         font-size: 18px;
         margin-bottom: 5px;
         font-weight: 600;
     }
+
     .footer .link-part ul li a {
         font-size: 14px;
         color: #4f4f4f;
@@ -447,11 +484,13 @@
         color: #000000;
         font-weight: 600;
     }
+
     .address-item strong {
         font-size: 14px;
         font-weight: 600;
         color: #000;
     }
+
     .footer .newsletter h3 {
         font-size: 16px;
     }
@@ -474,14 +513,16 @@
     .footer .custom-from .input-group {
         border-radius: 20px;
     }
-    .bottom-footer p{
+
+    .bottom-footer p {
         font-size: 14px;
         text-align: center;
     }
-    .expert-card .card{
+
+    .expert-card .card {
         border-radius: 0px;
     }
-   
+
 
     .fixed-footer {
         display: block;
@@ -496,54 +537,65 @@
         border-top: 1px solid #fff;
     }
 
-    .fixed-footer-img img{
+    .fixed-footer-img img {
         width: 20px;
     }
 
-    .fixed-footer-img{
+    .fixed-footer-img {
         border-right: 1px solid #a5a5a5;
     }
-    .fixed-footer-img p{
+
+    .fixed-footer-img p {
         color: #fff;
         line-height: 13px;
         font-size: 12px;
         margin-top: 5px;
     }
-    .fixed-footer-img p strong{
+
+    .fixed-footer-img p strong {
         font-weight: 600;
     }
 
     .header-menu {
         background-color: #fff;
     }
-    .menu-button .toggle-bar{
+
+    .menu-button .toggle-bar {
         background-color: #b71c2b;
     }
+
     .hear-doc-image {
         height: auto;
     }
-    .navbar-brand a img{
+
+    .navbar-brand a img {
         width: 150px;
     }
-    .card:hover .card-top img{
+
+    .card:hover .card-top img {
         transform: none;
     }
-    .media-card:hover .media-img img{
+
+    .media-card:hover .media-img img {
         transform: none;
-    } 
+    }
+
     .bottom-footer {
         padding: 15px 0px 22px;
     }
+
     .doc-image-hover:hover {
         transform: none;
     }
+
     .play-icon {
         position: absolute;
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
     }
-    footer.footer{
+
+    footer.footer {
         padding: 25px 0px;
     }
 }
@@ -556,6 +608,7 @@
     section.section {
         padding: 30px 0;
     }
+
     .ctn-left-col {
         background: #b71c2b !important;
     }
@@ -626,9 +679,11 @@
     .main-btn a {
         font-size: 15px;
     }
+
     .expert-section .main-btn a {
         border-bottom: none;
     }
+
     .exellence-section {
         background: #fafafa;
     }
@@ -665,29 +720,36 @@
     .expert-section .card .card-content h5 {
         padding-left: 5px;
     }
+
     .expert-section .card .card-content p {
         padding-left: 5px;
     }
+
     .from-btn button {
         font-size: 14px;
         padding: 5px 0px;
     }
+
     .from-btn a {
         font-size: 14px;
         padding: 6px 19px;
         width: 100%;
     }
+
     .frame-right-col h5 {
         font-size: 13px;
     }
+
     .frame-right-col h5 {
         font-size: 13px;
     }
+
     .frame-right-col h2 {
         font-size: 14px;
         margin-bottom: 5px;
         margin-top: 5px;
     }
+
     .frame-right-col p {
         font-size: 14px;
         color: #636466;
@@ -697,24 +759,29 @@
         -webkit-box-orient: vertical;
         overflow: hidden;
     }
+
     .owl-carousel.wall-frame .owl-nav button.owl-next img {
         width: 30px;
     }
+
     .owl-carousel.wall-frame .owl-nav button.owl-next {
         height: 35px;
         width: 35px;
         left: 60%;
         top: 100%;
     }
+
     .owl-carousel.wall-frame .owl-nav button.owl-prev img {
         width: 30px;
     }
+
     .owl-carousel.wall-frame .owl-nav button.owl-prev {
         height: 35px;
         width: 35px;
         left: 48%;
         top: 100%;
     }
+
     .white-box {
         width: 25rem;
         height: 13rem;
@@ -723,15 +790,19 @@
         left: -20rem;
         top: -20px;
     }
+
     .owl-theme.wall-frame .owl-nav {
         padding-top: 0px;
     }
+
     .wallframe-section {
         padding-bottom: 50px !important;
     }
+
     .frame-left-col img {
         border-radius: 20px;
     }
+
     .testi-rightbox.card-content {
         padding: 15px 10px 20px;
         border-bottom-left-radius: 20px;
@@ -739,6 +810,7 @@
         background: #fafafa;
         min-height: auto;
     }
+
     .testimonial-section .testi-rightbox h3 {
         font-size: 16px;
         font-weight: 700;
@@ -759,11 +831,13 @@
         font-size: 14px;
         line-height: 17px;
     }
+
     .testi-rightbox .doctor-catagory p {
         font-size: 14px;
         line-height: 17px;
         font-weight: 400;
     }
+
     .blog-section .testi-rightbox p {
         font-size: 14px;
         margin: 5px 0px 5px;
@@ -774,10 +848,11 @@
         overflow: hidden;
     }
 
-    .blog-section .testi-rightbox .d-block strong{
+    .blog-section .testi-rightbox .d-block strong {
         font-size: 14px;
     }
-    .blog-section .col-6 img{
+
+    .blog-section .col-6 img {
         border-radius: 13px;
     }
 
@@ -785,7 +860,7 @@
         background: transparent;
     }
 
-    .blog-card{
+    .blog-card {
         padding: 10px;
         padding: 10px;
         background: #fafafa;
@@ -809,22 +884,26 @@
         border-radius: 10px;
     }
 
-    .hear-doctor-img img{
+    .hear-doctor-img img {
         border-radius: 10px;
     }
+
     .blog-right-col .hear-doctor-content {
         top: 64%;
         width: 100%;
         height: auto;
     }
+
     .blog-right-col .hear-doctor-content p {
         font-size: 14px;
         line-height: 17px;
     }
+
     .blog-right-col .hear-doctor-content {
         top: 62%;
         width: 100%;
     }
+
     .blog-right-col .hear-doctor-content p {
         font-size: 14px;
         line-height: 17px;
@@ -838,42 +917,48 @@
         -webkit-box-orient: vertical;
         overflow: hidden;
     }
-    .media-name p{
+
+    .media-name p {
         font-size: 10px;
     }
+
     .media-heart p img {
         width: 14px;
     }
+
     .media-heart img {
         width: 14px;
     }
+
     .media-share p span img {
         width: 14px;
     }
 
-    .media-img img{
+    .media-img img {
         border-top-left-radius: 13px;
         border-top-right-radius: 13px;
 
     }
-    .media-content{
+
+    .media-content {
         border-bottom-left-radius: 13px;
-        border-bottom-right-radius: 13px; 
+        border-bottom-right-radius: 13px;
     }
-    .media-card{
+
+    .media-card {
         border-radius: 13px;
     }
 
     .colum-link {
         height: 100%;
     }
-    
+
     .footer-menu.expanded ul.first-child {
         max-height: 0;
         transition: max-height 0.25s ease-out;
         overflow: hidden;
     }
-   
+
     .footer-menu.expanded h3:before {
         content: "\f078";
         font-family: 'FontAwesome';
@@ -888,20 +973,24 @@
         transition: transform 0.2s ease-in-out;
         transform: rotate(0deg);
     }
+
     .footer-menu.expanded.drop-down ul.first-child {
         max-height: 600px;
         transition: max-height 0.25s ease-in;
     }
-    .footer-menu.expanded.drop-down h3:before{
+
+    .footer-menu.expanded.drop-down h3:before {
         content: "\f078";
         font-family: 'FontAwesome';
         transform: rotate(-180deg);
     }
+
     .footer .link-part h3 {
         font-size: 16px;
         margin-bottom: 5px;
         font-weight: 600;
     }
+
     .footer .link-part ul li a {
         font-size: 14px;
         color: #4f4f4f;
@@ -912,11 +1001,13 @@
         color: #000000;
         font-weight: 600;
     }
+
     .address-item strong {
         font-size: 14px;
         font-weight: 600;
         color: #000;
     }
+
     .footer .newsletter h3 {
         font-size: 16px;
     }
@@ -940,14 +1031,15 @@
         border-radius: 20px;
     }
 
-    .bottom-footer p{
+    .bottom-footer p {
         font-size: 14px;
         text-align: center;
     }
 
-    .expert-card .card{
+    .expert-card .card {
         border-radius: 0px;
     }
+
     .fixed-footer {
         display: block;
         background-color: #b71c2b;
@@ -961,69 +1053,83 @@
         border-top: 1px solid #fff;
     }
 
-    .fixed-footer-img img{
+    .fixed-footer-img img {
         width: 20px;
     }
 
-    .fixed-footer-img{
+    .fixed-footer-img {
         border-right: 1px solid #a5a5a5;
     }
-    .fixed-footer-img p{
+
+    .fixed-footer-img p {
         color: #fff;
         line-height: 13px;
         font-size: 12px;
         margin-top: 5px;
     }
-    .fixed-footer-img p strong{
+
+    .fixed-footer-img p strong {
         font-weight: 600;
     }
+
     .header-menu {
         background-color: #fff;
     }
-    .menu-button .toggle-bar{
+
+    .menu-button .toggle-bar {
         background-color: #b71c2b;
     }
 
-    .hear-doc-image{
+    .hear-doc-image {
         height: auto;
     }
 
-    .navbar-brand a img{
+    .navbar-brand a img {
         width: 150px;
     }
-    .card:hover .card-top img{
+
+    .card:hover .card-top img {
         transform: none;
     }
+
     .expert-section .main-btn a {
         border-bottom: none;
     }
-    .media-card:hover .media-img img{
+
+    .media-card:hover .media-img img {
         transform: none;
-    } 
+    }
+
     .bottom-footer {
         padding: 15px 0px 22px;
     }
+
     .doc-image-hover:hover {
         transform: none;
     }
+
     .play-icon {
         position: absolute;
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
     }
-    footer.footer{
+
+    footer.footer {
         padding: 25px 0px;
     }
+
     .page-header h2 {
         font-size: 20px;
         font-weight: 600;
     }
+
     .page-header {
         background: #d1d1d1;
         padding: 15px 0px;
     }
-    #scrolltoButton{
+
+    #scrolltoButton {
         bottom: 65px;
     }
 
@@ -1048,30 +1154,39 @@
     .details-key-left-col h5 {
         font-size: 14px;
     }
+
     .details-key-row .select2-container .select2-selection--single {
         padding: 7px 12px;
     }
+
     .details-key-row .search-btn-page {
         padding: 9px 25px !important;
     }
+
     .key-master-call-btn {
         padding: 30px 20px;
     }
+
     .key-master-help-btn {
         padding: 20px 20px;
     }
+
     .key-master-book-appointment-btn {
         padding: 20px 20px;
     }
-    .procedures-details-page-header::before{
+
+    .procedures-details-page-header::before {
         display: none;
     }
+
     .procedures-details-page-header {
         background: #fef4f4;
     }
+
     .procedure-btn-right {
         margin-left: 10px;
     }
+
     .sub-heading p {
         font-size: 14px;
     }
@@ -1079,6 +1194,7 @@
     .details-right-col p {
         font-size: 15px;
     }
+
     .details-card .card-content p {
         min-height: auto;
         font-size: 14px;
@@ -1088,19 +1204,24 @@
     .details-card .card-content {
         padding: 25px;
     }
+
     .details-key-box {
         padding: 7px;
     }
+
     .breadcrumb>li {
         font-size: 14px;
     }
+
     .speciality-masterpage-card-content a {
         font-size: 15px;
         padding: 7px 0px;
     }
+
     .key-procedures-master-page.speciality-masterpage-card a .key-master-row h5 {
         font-size: 15px;
     }
+
     .procedure-acc-card .accordion-body p {
         font-size: 14px;
         min-height: auto;
@@ -1110,6 +1231,7 @@
         line-height: 20px;
         font-size: 15px;
     }
+
     .hospital-mainpage-form .search-btn-page {
         display: flex;
         align-items: center;
@@ -1124,33 +1246,41 @@
         margin-bottom: 7px;
         line-height: 20px;
     }
+
     .col-md-4 .custom-hospital-top-card .hospital-content .hospital-icon-custom {
         min-height: auto;
     }
+
     .col-md-4 .custom-hospital-top-card .hospital-content .location-icon-custom {
         min-height: auto;
     }
-    .col-md-6 .location-icon-custom.address-half-col{
+
+    .col-md-6 .location-icon-custom.address-half-col {
         min-height: auto;
     }
+
     .hospital-primarybtn {
         width: 100%;
         padding: 4px 25px;
     }
+
     .hospital-secondarybtn {
         width: 100%;
         padding: 4px 25px;
     }
+
     .location-icon-custom {
         font-size: 15px;
         line-height: 20px;
         margin-bottom: 7px;
     }
+
     .telephone-icon-custom {
         font-size: 15px;
         line-height: 20px;
         margin-bottom: 7px;
     }
+
     .send-custom-icon {
         font-size: 15px;
         line-height: 20px;
@@ -1170,22 +1300,79 @@
         left: -30px;
         z-index: 9999;
     }
-    .hospital-banner-container{
+
+    .hospital-banner-container {
         padding: 0 15px;
     }
 
+    .heart-associations-main-page .procedures-details-page-header::before {
+        display: block;
+        position: absolute;
+        content: '';
+        display: block;
+        width: 53%;
+        height: 345px;
+        top: 42%;
+        left: -30px;
+        z-index: 9999;
+    }
+
+    .details-banner-image {
+        height: auto;
+    }
+
+    .heart-associations-main-page .details-heading h3 {
+        font-size: 20px;
+        line-height: 28px;
+    }
+
+    .hear-associations-table thead tr th {
+        font-size: 14px;
+        padding: 10px 10px;
+    }
+
+    .hear-associations-table tbody tr td {
+        font-size: 14px;
+        padding: 10px 15px;
+    }
+
+    .association-left-col h4 {
+        font-size: 18px;
+    }
+
+    .association-left-col p {
+        font-size: 14px;
+    }
+
+    .association-left-col a {
+        font-size: 14px;
+    }
+
+    .journal-section .expert-card .card-content h5 {
+        font-size: 14px;
+    }
+
+    .association-section .main-heading h3 {
+        font-size: 18px;
+    }
+
+    .association-form-card h3 {
+        font-size: 18px;
+    }
 }
 
-@media only screen and (max-width: 480px){
+@media only screen and (max-width: 480px) {
     .main-heading h2 {
         font-size: 18px;
         margin-bottom: 15px;
     }
+
     .from-btn a {
         font-size: 14px;
         padding: 6px 19px;
         width: 100%;
     }
+
     .expert-section .main-btn a {
         border-bottom: none;
     }

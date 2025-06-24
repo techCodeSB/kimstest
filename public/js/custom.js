@@ -330,6 +330,14 @@ $(document).ready(function () {
     $('.speciality-page-search').select2();
 });
 
+$(document).ready(function () {
+    $('.diseases-page-search').select2();
+});
+
+$(document).ready(function () {
+    $('.treatments-page-search').select2();
+});
+
 // AOS.init({
 //     offset: 100,
 //     delay: 100,
@@ -339,4 +347,27 @@ $(document).ready(function () {
 //     mirror: true,
 // });
 
+// journal page
+window.journalCarousel = function () {
+    $('.journal-slider').owlCarousel({
+        loop: true,
+        margin: 15,
+        nav: true,
+        navText: ["<img src='img/left-arrow.svg'>", "<img src='img/slider-right-arrow.svg'>"],
+        dots: false,
+        responsive: {
+            0: {
+                items: 2,
+                nav: false
+            },
+            600: {
+                items: 2,
+                nav: false
+            },
+            1000: {
+                items: 5
+            }
+        }
+    })
+}
 

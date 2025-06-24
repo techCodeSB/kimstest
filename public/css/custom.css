@@ -2100,12 +2100,13 @@ footer.footer {
     background: #fff;
 }
 
-.hospital-mainpage-form .select2-container--default .select2-selection--single{
+.hospital-mainpage-form .select2-container--default .select2-selection--single {
     border: 1px solid #b71c2b;
     border-radius: 20px;
     height: auto;
     padding: 5px 10px;
 }
+
 .hospital-mainpage-form .select2-container--default .select2-selection--single .select2-selection__arrow {
     height: 26px;
     position: absolute;
@@ -2120,22 +2121,24 @@ footer.footer {
     font-size: 16px;
 }
 
-.hospital-main-page .hospital-content{
+.hospital-main-page .hospital-content {
     padding: 20px;
 }
 
 
-.custom-hospital-top-card{
+.custom-hospital-top-card {
     background: #f5f5f5;
 }
-.star-rating{
+
+.star-rating {
     font-weight: 700;
 }
-.star-rating i{
+
+.star-rating i {
     font-size: 16px;
 }
 
-.hospital-primarybtn{
+.hospital-primarybtn {
     background: #b71c2b;
     color: #fff;
     border-radius: 30px;
@@ -2145,14 +2148,14 @@ footer.footer {
     transition: .3s ease-in;
 }
 
-.hospital-primarybtn:hover{
+.hospital-primarybtn:hover {
     background: #fff;
     color: #b71c2b;
     border: 1px solid #b71c2b;
-    
+
 }
 
-.hospital-secondarybtn{
+.hospital-secondarybtn {
     background: transparent;
     color: #000000;
     border: 1px solid #b71c2b;
@@ -2163,30 +2166,31 @@ footer.footer {
     transition: .4s;
 }
 
-.hospital-secondarybtn:hover{
+.hospital-secondarybtn:hover {
     background: #b71c2b;
     color: #fff;
     border: 1px solid #b71c2b;
 }
 
-.address-hospital{
+.address-hospital {
     min-height: 75px;
 }
 
 
 
-.col-md-6 .location-icon-custom.address-half-col{
+.col-md-6 .location-icon-custom.address-half-col {
     min-height: 50px;
 }
 
-.location-icon-custom{
+.location-icon-custom {
     position: relative;
     padding-left: 30px;
     font-size: 16px;
     color: #000000;
     margin-bottom: 10px;
 }
-.location-icon-custom::before{
+
+.location-icon-custom::before {
     position: absolute;
     content: '';
     background: url(../img/location.png);
@@ -2198,7 +2202,7 @@ footer.footer {
     background-size: contain;
 }
 
-.hospital-icon-custom{
+.hospital-icon-custom {
     position: relative;
     padding-left: 30px;
     font-size: 20px;
@@ -2207,7 +2211,7 @@ footer.footer {
     margin-bottom: 10px;
 }
 
-.hospital-icon-custom::before{
+.hospital-icon-custom::before {
     position: absolute;
     content: '';
     background: url(../img/hospital.png);
@@ -2218,7 +2222,8 @@ footer.footer {
     background-repeat: no-repeat;
     background-size: contain;
 }
-.telephone-icon-custom{
+
+.telephone-icon-custom {
     position: relative;
     padding-left: 30px;
     font-size: 16px;
@@ -2226,7 +2231,7 @@ footer.footer {
     margin-bottom: 10px;
 }
 
-.telephone-icon-custom::before{
+.telephone-icon-custom::before {
     position: absolute;
     content: '';
     background: url(../img/telephone-hospital.png);
@@ -2237,14 +2242,16 @@ footer.footer {
     background-repeat: no-repeat;
     background-size: contain;
 }
-.send-custom-icon{
+
+.send-custom-icon {
     position: relative;
     padding-left: 30px;
     font-size: 16px;
     color: #000000;
     margin-bottom: 10px;
 }
-.send-custom-icon::before{
+
+.send-custom-icon::before {
     position: absolute;
     content: '';
     background: url(../img/send.png);
@@ -2259,15 +2266,17 @@ footer.footer {
 .col-md-4 .custom-hospital-top-card .hospital-content .hospital-icon-custom {
     min-height: 50px;
 }
+
 .col-md-4 .custom-hospital-top-card .hospital-content .location-icon-custom {
     min-height: 80px;
 }
 
-.details-banner .details-heading .hospital-content .send-custom-icon{
+.details-banner .details-heading .hospital-content .send-custom-icon {
     position: relative;
     display: inline-block;
 }
-.details-banner .details-heading .hospital-content .send-custom-icon::after{
+
+.details-banner .details-heading .hospital-content .send-custom-icon::after {
     position: absolute;
     content: '';
     background: #c71d22;
@@ -2277,20 +2286,22 @@ footer.footer {
     height: 1px;
 }
 
-.hospital-details-slider .item img{
+.hospital-details-slider .item img {
     width: 100%;
     height: 340px;
     object-fit: cover;
 }
 
-.hospital-banner-container{
+.hospital-banner-container {
     max-width: 600px;
     margin-left: auto;
 }
-.hospital-details-slider{
+
+.hospital-details-slider {
     position: relative;
 }
-.hospital-details-slider::before{
+
+.hospital-details-slider::before {
     position: absolute;
     content: '';
     display: block;
@@ -2303,7 +2314,7 @@ footer.footer {
     z-index: 9999;
 }
 
-.hospital-details-slider.owl-theme .owl-nav{
+.hospital-details-slider.owl-theme .owl-nav {
     margin-top: 0;
 }
 
@@ -2318,6 +2329,7 @@ footer.footer {
     height: 40px;
     width: 40px;
 }
+
 .hospital-details-slider.owl-carousel .owl-nav button.owl-next {
     position: absolute;
     top: 75%;
@@ -2334,27 +2346,29 @@ footer.footer {
     width: auto;
     margin-right: 0px;
 }
+
 .owl-carousel.hospital-details-slider .owl-nav button.owl-prev img {
     width: 30px;
 }
+
 .owl-carousel.hospital-details-slider .owl-nav button.owl-next img {
     width: 30px;
 }
 
-.hospital-details-overview-section .sub-heading .main-heading h4{
+.hospital-details-overview-section .sub-heading .main-heading h4 {
     font-size: 18px;
     font-weight: 600;
     color: #000000;
     margin-bottom: 0px;
 }
 
-.details-counter-section{
+.details-counter-section {
     background: #fff;
     padding: 15px 30px;
     margin-top: 20px;
 }
 
-.details-counter-box h2{
+.details-counter-box h2 {
     font-size: 35px;
     line-height: normal;
     font-weight: 700;
@@ -2363,22 +2377,23 @@ footer.footer {
     border-bottom: 1px solid #dadad6;
 
 }
-.details-counter-box p{
+
+.details-counter-box p {
     font-size: 16px;
     color: #000000;
     font-weight: 600;
     margin-bottom: 0px;
 }
 
-.hospital-details-overview-section{
+.hospital-details-overview-section {
     background: #f5f5f5;
 }
 
-.custom-hospital-top-card{
+.custom-hospital-top-card {
     background: #f5f5f5;
 }
 
-.custom-hospital-top-card .hospital-content{
+.custom-hospital-top-card .hospital-content {
     padding: 20px;
 }
 
@@ -2390,3 +2405,175 @@ footer.footer {
     background: rgb(244, 244, 244);
 }
 
+.heart-associations-main-page .details-heading h3 {
+    text-transform: none;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 35px;
+}
+
+.details-banner-image {
+    width: 100% !important;
+    height: 350px;
+    object-fit: cover;
+}
+
+.heart-associations-main-page .procedures-details-page-header::before {
+    z-index: 999;
+}
+
+.association-section .main-heading h3 {
+    font-size: 22px;
+    color: #000;
+    font-weight: 600;
+    margin-top: 30px;
+}
+
+.hear-associations-table {
+    margin-top: 15px;
+    padding: 5px;
+}
+
+.hear-associations-table thead tr {
+    background: #b71c2b;
+
+}
+
+.hear-associations-table thead tr th {
+    background: transparent;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.hear-associations-table tbody tr td {
+    background: transparent;
+    color: #000000;
+    padding: 10px 20px;
+    font-size: 15px;
+}
+
+.hear-associations-table tbody tr {
+    box-shadow: rgb(99 99 99 / 13%) 0px 2px 8px 0px;
+
+}
+
+.hear-associations-table table {
+    border-spacing: 0 5px !important;
+    border-collapse: separate;
+}
+
+.journal-section .expert-card .card-content h5 {
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.journal-section .card {
+    background: transparent;
+
+}
+
+.journal-section .owl-carousel .owl-nav button.owl-prev {
+    background: #f4f4f4;
+}
+
+.journal-section .owl-carousel .owl-nav button.owl-next {
+    background: #f4f4f4;
+}
+
+.association-form-card {
+    box-shadow: rgb(99 99 99 / 13%) 0px 2px 8px 0px;
+    padding: 20px 30px;
+    border-radius: 10px;
+}
+
+.association-form-card input,
+.association-form-card textarea {
+    border-radius: 40px;
+    padding: 10px 30px;
+    border: 1px solid #f3f3f3;
+}
+
+.association-form-card h3 {
+    font-size: 22px;
+    color: #b71c2b;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.association-form-card form ::placeholder {
+    color: #a8a9a9 !important;
+    font-size: 15px;
+}
+
+.association-left-col h4 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #b71c2b;
+    margin-bottom: 7px;
+}
+
+.association-left-col p {
+    font-size: 16px;
+    margin-bottom: 3px;
+}
+
+.association-left-col a {
+    display: block;
+    margin-bottom: 3px;
+    font-size: 16px;
+}
+
+.association-left-col a i {
+    color: #b71c2b;
+    margin-right: 4px;
+}
+
+/* ========================= Add new ========================= */
+.carousel-wrapper {
+    position: relative;
+    padding: 0 40px;
+    /* space for arrows */
+}
+
+.custom-swiper-button-prev,
+.custom-swiper-button-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 10;
+    background: none;
+    border: none;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    padding: 0;
+    background-color: #f4f4f4;
+    border-radius: 100%;
+    display: grid;
+    place-items: center;
+}
+
+.custom-swiper-button-prev {
+    left: -10px;
+}
+
+.custom-swiper-button-next {
+    right: -10px;
+}
+
+.custom-swiper-button-prev img,
+.custom-swiper-button-next img {
+    width: 25px;
+    object-fit: contain;
+}
+
+
+@media (max-width: 599px) {
+  .custom-swiper-button-prev,
+  .custom-swiper-button-next {
+    display: none;
+  }
+}

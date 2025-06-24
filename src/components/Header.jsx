@@ -1,34 +1,60 @@
 "use client"
 import Link from "next/link";
 import { useEffect } from "react";
+import { usePathname } from 'next/navigation'
+import detectedAndSetLocationORLanguage from "@/app/helper/detectedAndSetLangOrLanguage";
+import baseUrlGenerator from "@/app/helper/baseUrlGenerator";
 
 
 const Header = () => {
 
   useEffect(() => {
-    const CarouselRunner = () => {
-      setTimeout(() => {
-        if (
-          typeof window !== "undefined" && window.initExellenceCarousel
-          && window.initExpertCarousel && window.initTestimonialCarousel
-          && window.initWallFrameCarousel && window.initBlogCarousel
-          && window.initHomeBannerCarousel && window.hospitalCarousel
-          && window.hospitalDetails
-        ) {
-          window.initHomeBannerCarousel();
-          window.initExellenceCarousel();
-          window.initExpertCarousel();
-          window.initTestimonialCarousel();
-          window.initWallFrameCarousel();
-          window.initBlogCarousel();
-          window.hospitalDetails();
-          window.hospitalCarousel()
-        }
-      }, 100);
-    };
+    const refer = document.referrer;
+    const origin = location.origin;
 
-    CarouselRunner();
+    if (refer == "" || `${origin}/` !== refer) {
+      // get Location and lang and set to LocalStorage;
+      detectedAndSetLocationORLanguage()
+        .then((d) => {
+          console.log(baseUrlGenerator(true, true));
+        })
+        .catch(er => {
+          console.log(er)
+        })
 
+    }
+
+
+  }, [usePathname])
+
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      const isReady =
+        typeof window !== "undefined" &&
+        window.initHomeBannerCarousel &&
+        window.initExellenceCarousel &&
+        window.initExpertCarousel &&
+        window.initTestimonialCarousel &&
+        window.initWallFrameCarousel &&
+        window.initBlogCarousel &&
+        window.hospitalCarousel &&
+        window.hospitalDetails;
+
+      if (isReady) {
+        window.initHomeBannerCarousel();
+        window.initExellenceCarousel();
+        window.initExpertCarousel();
+        window.initTestimonialCarousel();
+        window.initWallFrameCarousel();
+        window.initBlogCarousel();
+        window.hospitalDetails();
+        window.hospitalCarousel();
+        clearInterval(interval);
+      }
+    }, 100);
+
+    return () => clearInterval(interval);
   }, []);
 
 
@@ -43,7 +69,7 @@ const Header = () => {
           </div>
           <div className="header-contact d-flex align-items-center justify-content-center">
             <ul>
-              <li><a href="#">About Us</a></li>
+              <li><Link href="hospital">About Us</Link></li>
               <li><a href="#">Home Care</a></li>
               <li><a href="">Second Opinion</a></li>
               <li><a href="#">My Reports</a></li>
