@@ -104,9 +104,9 @@ const detectedAndSetLocationORLanguage = async () => {
         }
     }
 
-    console.log("===============================")
-    console.log(`Location ${JSON.stringify(loc)}, Lang: ${JSON.stringify(lang)}`)
-    console.log("===============================")
+    // console.log("===============================")
+    // console.log(`Location ${JSON.stringify(loc)}, Lang: ${JSON.stringify(lang)}`)
+    // console.log("===============================")
 
     localStorage.setItem("systemLang", JSON.stringify(lang));
     localStorage.setItem("systemLocation", JSON.stringify(loc));

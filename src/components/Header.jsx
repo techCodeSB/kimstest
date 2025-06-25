@@ -1,33 +1,62 @@
 "use client"
 import Link from "next/link";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import { usePathname } from 'next/navigation'
 import detectedAndSetLocationORLanguage from "@/app/helper/detectedAndSetLangOrLanguage";
 import baseUrlGenerator from "@/app/helper/baseUrlGenerator";
-
+import mainHelper from "@/app/helper/mainHelper";
+import {onLangChangeRedirection, onLocChangeRedirection} from "@/app/helper/onChageRedirection";
 
 const Header = () => {
+  const [allLanguages, setAllLanguage] = useState([]); // Store all language;
+  const [allLocations, setAllLocations] = useState([]); // Store all locations;
+  const pathname = usePathname();
+  let [selectedLang, setSelectedLang] = useState(null);
+  let [selectedLoc, setSelectedLoc] = useState(null);
 
+  // Get all languages
+  useEffect(() => {
+    const getLang = async () => {
+      const lang = await mainHelper.getLanguages();
+      setAllLanguage([...lang]);
+    }
+
+    const getLoc = async () => {
+      const loc = await mainHelper.getLocations();
+      setAllLocations([...loc]);
+    }
+
+    getLang()
+    getLoc()
+
+  }, [])
+
+  
+
+
+  // Set Current Language and location on Page load or URL redirection
   useEffect(() => {
     const refer = document.referrer;
     const origin = location.origin;
 
     if (refer == "" || `${origin}/` !== refer) {
-      // get Location and lang and set to LocalStorage;
       detectedAndSetLocationORLanguage()
         .then((d) => {
-          console.log(baseUrlGenerator(true, true));
+          // console.log(baseUrlGenerator(true, true));
+          setSelectedLang(JSON.parse(localStorage.getItem("systemLang")))
+          setSelectedLoc(JSON.parse(localStorage.getItem("systemLocation")))
         })
         .catch(er => {
           console.log(er)
         })
 
     }
+  }, [pathname])
 
 
-  }, [usePathname])
 
 
+  // For carousel calls
   useEffect(() => {
     const interval = setInterval(() => {
       const isReady =
@@ -86,10 +115,30 @@ const Header = () => {
                 <i className="fa-solid fa-magnifying-glass"></i>
               </div>
               <div className="top-drop-down">
-                <select defaultValue={"en"} className="form-select border-0 pe-1" aria-label="">
-                  <option value="en">En</option>
-                  <option value="Arabic">Arabic</option>
+
+                <select value={selectedLang?.slug || ""} className="form-select border-0 pe-1" onChange={onLangChangeRedirection}>
+                  {
+                    allLanguages.length < 1 ? <option>Loading...</option> :
+                      allLanguages.map((l, _) => {
+                        return <option value={l.code} data-fulldata={JSON.stringify(l)} key={l.id}>
+                          {l.name}
+                        </option>
+                      })
+                  }
                 </select>
+
+                <select value={selectedLoc?.slug || ""} className="form-select border-0 pe-1" onChange={onLocChangeRedirection}>
+                  <option value="">Location</option>
+                  {
+                    allLocations.length < 1 ? <option>Loading...</option> :
+                      allLocations.map((l, _) => {
+                        return <option value={l.slug} data-fulldata={JSON.stringify(l)} key={l.id}>
+                          {l.title}
+                        </option>
+                      })
+                  }
+                </select>
+
               </div>
             </div>
 

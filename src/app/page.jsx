@@ -282,13 +282,13 @@ export default function Home() {
 
         <TestimonialSection />
 
-        {/* <!-- ========== testimonial section end ============ --> */}
+        {/* <!-- ========== Testimonial section end ============ --> */}
 
 
         <div className="line-divider"></div>
 
         <BlogCarousel />
-        {/* <!-- ========== blog section end =========== --> */}
+        {/* <!-- ========== Blog section end =========== --> */}
 
         <div className="line-divider"></div>
         <HearFromDoctor />
