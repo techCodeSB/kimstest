@@ -1,4 +1,8 @@
 const detectedAndSetLocationORLanguage = async () => {
+    console.log("=============================")
+    console.log(process.env.NEXT_PUBLIC_CMS_API_URL)
+    console.log("=============================")
+
     const mainUrl = new URL(window.location.href);
     const segments = mainUrl.pathname.split('/').filter(Boolean)
     const first = segments[0]
